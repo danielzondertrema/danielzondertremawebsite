@@ -1,0 +1,139 @@
+<html>
+<head>
+  <style>
+body {
+  
+  background-color: #f5b342;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+h1 {
+  background-color: black;
+}
+div {
+  background-color: black;
+  width: 1840px;
+  padding: 10px;
+  margin: 20px;
+  position: center;
+}
+div.macintosh {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  position: absolute;
+  top: 360px;
+  left :2px;
+  text-align: center;
+}
+div.speakerrechts {
+  width: 135px;
+  padding: 50px;
+  margin: 20px;
+  position: absolute;
+  top: 115px;
+  right :80px;
+  text-align: center;
+}
+div.mementomori {
+  width: 300px;
+  padding: 50px;
+  margin: auto;
+  position: absolute;
+  top: 450px;
+  right :20px;
+}
+div.boom {
+  width: 900px;
+  padding: 60px;
+  margin: auto;
+  position: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+}
+  </style>
+</head>
+<body>
+<div href="https://www.youtube.com/watch?v=GxPNprgqR48" class="p1" style="color:white;">hey world!</div>
+<div class="macintosh">
+ <img position="center" src="macintoshplus.gif" width="300" height="300">
+ <audio id="macintosh">
+    <source src="macintosh.mp3">
+  </audio>
+ <a style="color: white">リサフランク420 - 現代のコンピュー</a>
+ <button onclick="playAudio2()">play</button>
+ <button onclick="pauseAudio2()">pause</button>
+ 
+</div>
+<div class="speakerrechts">
+ <img position="center" src="speaker.gif">
+ <a href="https://dinosaurcityrecords.bandcamp.com/track/chakra-efendi-feat-memo-boy-insomniac" style="color: white">Insomniac · Memo Boy · Chakra Efendi</a>
+<audio id="audio">
+ <source src="insomniac.mp3">
+ </audio>
+ <button onclick="playAudio()">play</button>
+ <button onclick="pauseAudio()">pause</button>
+</div>
+<div class="mementomori">
+  <img src="mementomori.jpg" width="300" height="200" position="center">
+  <a style="color: white">"memento mori"</a>
+</div>
+<div class="boom">
+  <img src="boom.jpg" height="600" width="900">
+  <a style="color: white">bosque de finlandia en otoño</a>
+</div>
+<div class="topnav">
+  <a style="color: white" href="https://open.spotify.com/user/n819sjtt7c9d0ho9v52qi8v5i?si=rk9U1TOpSSWvYVOqd_-vAA">spotify</a>
+  <a style="color: white" href="https://www.instagram.com/danielzondertrema/">instagram</a>
+  <a style="color: white" href="https://www.vinted.nl/member/39955180-danielsk8">koop mijn kleren</a>
+  <a style="color: white" href="https://www.youtube.com/watch?v=GxPNprgqR48">hey!</a>
+  <a style="color: white" href="https://www.youtube.com/watch?v=uk70y4so7Gc">tag</a>
+  <a style="color: white" href="https://www.youtube.com/watch?v=bAgmGZ9iQ2Y">ンク420現代</a>
+  <a style="color: white" href="https://music.midwestcollective.us/album/odyssey">odyssey</a>
+  
+</div>
+
+<script>
+  var myAudio = document.getElementById("audio");
+  
+  function playAudio() {
+    myAudio.play();
+  }
+  function pauseAudio() {
+      myAudio.pause();
+  }
+  
+  var myAudio2 = document.getElementById("macintosh");
+  
+  function playAudio2() {
+    myAudio2.play();
+  }
+  function pauseAudio2() {
+    myAudio2.pause();
+  }
+  
+  
+</script>
+</body>
+  
+  
+  
+  
+  
+  
+</html>
